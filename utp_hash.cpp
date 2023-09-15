@@ -103,7 +103,7 @@ uint utp_hash_mem(const void *keyp, size_t keysize)
 	}
 	return hash;
 }
-
+//= >:( 
 uint utp_hash_mkidx(utp_hash_t *hash, const void *keyp)
 {
 	// Generate a key from the hash
